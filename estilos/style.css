@@ -23,4 +23,14 @@ img {
 
 * {
     box-sizing: border-box; /*O padding respeita o tamanho da box*/
+    margin: 0;
+}
+/*Superinfo*/
+.superinfo-bg {
+    background: #2C70FF;
+    color: white;
+}
+
+.superinfo a {
+    color: white;
 }
