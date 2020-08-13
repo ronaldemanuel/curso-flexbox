@@ -2,7 +2,7 @@
  Site desenvolvido no curso de flexbox da Origamid
 
 ## Link para o site no GitHub Pages
-(FlexBlog)[https://ronaldemanuel.github.io/curso-flexbox/]
+[FlexBlog](https://ronaldemanuel.github.io/curso-flexbox/)
 
 ### Desenvolvido utilizando:
 * Visual Studio Code
@@ -11,4 +11,4 @@
 
 ***  
 
-Link para o curso gratuito de (flex-box)[https://www.origamid.com/curso/css-flexbox/]
+Link para o curso gratuito de [flex-box](https://www.origamid.com/curso/css-flexbox/)
