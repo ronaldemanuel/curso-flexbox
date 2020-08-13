@@ -10,17 +10,17 @@
 * Conjunto de propriedades **flex-box**
 
 ### Propriedades de flex-box utilizadas:
-```
-display: flex;
-```
+`display: flex;`
 * flex-wrap
 * flex
 * justify-content
 * align-items
 * align-self
-*OBS: Mitas dessas propriedades CSS são usadas em diversas situações,*
+
+_**OBS**: Mitas dessas propriedades CSS são usadas em diversas situações,_
 *neste caso, usamos para posicionamento e definições*
-_de um **flex-container** e/ou de um **flex-item**_
+
+_de um **flex-container** e/ou de um **flex-item**._
 
 ***  
 
