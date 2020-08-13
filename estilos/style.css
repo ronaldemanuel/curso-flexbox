@@ -267,3 +267,48 @@ img {
         order: -1;
     }
 }
+
+/*Qualidade*/
+.qualidade {
+    max-width: 960px;
+    margin: 60px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.qualidade-item {
+    flex: 1 1 300px; /*Cerca de 1/3 do width pré-definido desse layout. Tenta ao máximo criar 3 colunas*/
+    margin: 20px 10px;
+}
+
+.qualidade-item h2 {
+    color: #a4a4a4;
+    font-size: 2.25em;
+    margin-bottom: 20px;
+}
+
+.qualidade-item h2::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.qualidade-item:nth-of-type(3n+1) h2::before { /*modifica o primeiro item e o terceiro contando a partir dele*/
+    background: #AE81FF;
+}
+
+.qualidade-item:nth-of-type(3n+2) h2::before {
+    background: #F9265E;
+}
+
+.qualidade-item:nth-of-type(3n+3) h2::before {
+    background: #66D9EB;
+}
+
+.qualidade-item p {
+    font-size: 1.25em;
+    line-height: 1.4;
+    color: #7c7c7c;
+}
