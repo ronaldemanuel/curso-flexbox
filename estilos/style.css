@@ -171,3 +171,99 @@ img {
 .blue {
     border-top: 8px solid #66D9EB;
 }
+
+/*Preço*/
+.preco {
+    background: #f7f7f7;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+    align-items: flex-end;
+}
+
+.preco-item {
+    flex: 1;
+    border: 4px solid #ffffff;
+    padding: 20px;
+    margin: 10px;
+    min-width: 260px; /*aparelhos mobile normalmente possuem no mínimo 300px de largura*/
+}
+
+.preco-item h2 {
+    font-size: 3em;
+    color: #a4a4a4;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.preco-item span {
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    display: block;
+    font-size: 3em;
+    max-width: 300px;
+    margin: 20px auto;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0 15px 0;
+}
+
+.preco-item sup {
+    font-size: 1.5rem;
+}
+
+.preco-item ul {
+    max-width: 300px;
+    margin: 20px auto;
+    font-size: 1.25em;
+    font-style: italic;
+    color: #7c7c7c;
+}
+
+.preco-item li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.preco-item li::after { /*Cria uma pseudo tag após (after) a original*/
+    content: '';
+    display: block;
+    background: #2C70FF;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+}
+
+.preco-item a {
+    border: 4px solid;
+    color: #222222;
+    display: block;
+    max-width: 300px;
+    margin: 20px auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.25em;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.preco-item a:hover {
+    background: #ffffff;
+}
+
+@media (max-width: 800px) {
+    .preco {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .preco .preco-item:nth-child(3) { /*para se referir a um filho de uma box diretamente pelo CSS, neste caso o 3°*/
+        order: -2;
+    }
+
+    .preco .preco-item:nth-child(2) {
+        order: -1;
+    }
+}
