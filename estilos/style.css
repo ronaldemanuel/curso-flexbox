@@ -312,3 +312,63 @@ img {
     line-height: 1.4;
     color: #7c7c7c;
 }
+
+/*Newsletter*/
+.newsletter {
+    background: #F7F7F7;
+    padding: 60px calc((100% - 960px) / 2); /*Atalho para criar o estilo semelhante ao do header - 100% da box menos a largura pré-definida do conteúdo, dividido por 2*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newsletter-info {
+    flex: 1 1 240px;
+    margin: 0 10px;
+}
+
+.newsletter-info h1 {
+    font-size: 3em;
+    color: #a4a4a4;
+}
+
+.newsletter-info p {
+    color: #7c7c7c;
+    font-size: 1.25em;
+    font-style: italic;
+    max-width: 230px;
+    margin-bottom: 10px;
+}
+
+.newsletter-form {
+    flex: 2 1 260px;
+    margin: 0 10px;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newsletter-form input {
+    border: 4px solid #2C70FF;
+    background: transparent;
+    color:#7c7c7c;
+    flex: 3 1 260px;
+    font-size: 1.25em;
+    font-style: italic;
+    font-family: "Nunito", Helvetica, Arial, sans-serif; /*A fonte padrão é definida pelo browser*/
+    padding: 15px 10px;
+    margin: 0px; /*Alguns browsers possuem margem definidas para o input. Nesse caso, o design precida dele com margin: 0px*/
+    border-radius: 0; /*Tira a borda arrendonda que tem por padrão em alguns browsers, e principalmente no mobile*/
+}
+
+.newsletter-form button {
+    background: #2C70FF;
+    color: white;
+    cursor: pointer;
+    border: 0px;
+    flex: 1 1 200px;
+    font-family: "Nunito", Helvetica, Arial, sans-serif;
+    font-size: 2.25em;
+    font-weight: bold;
+    margin: 0px;
+    padding: 15px 10px;
+}
