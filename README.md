@@ -7,7 +7,20 @@
 ### Desenvolvido utilizando:
 * Visual Studio Code
 * HTML5 CSS3
-* A propriedade de CSS **flex-box**
+* Conjunto de propriedades **flex-box**
+
+### Propriedades de flex-box utilizadas:
+```
+display: flex;
+```
+* flex-wrap
+* flex
+* justify-content
+* align-items
+* align-self
+*OBS: Mitas dessas propriedades CSS são usadas em diversas situações,*
+*neste caso, usamos para posicionamento e definições*
+_de um **flex-container** e/ou de um **flex-item**_
 
 ***  
 
